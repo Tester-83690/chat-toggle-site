@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Admin Panel</h2>
+    <form method="POST" action="/toggle-chat">
+    <button type="submit">Toggle Chat Page</button>
+    </form>
+    <form method="POST" action="/broadcast">
+    <input name="message" placeholder="Broadcast to all users" required>
+    <button type="submit">Send Broadcast</button>
+    </form>
+    <a href="/logout">Logout</a>
+</body>
+</html>

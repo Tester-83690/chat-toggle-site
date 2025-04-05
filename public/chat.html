@@ -1,1 +1,18 @@
-<final chat.html code goes here>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="chat-box" style="height:300px; overflow:auto;"></div>
+<form id="chat-form">
+  <input id="message" placeholder="Type a message" required>
+  <button>Send</button>
+</form>
+<a href="/logout">Logout</a>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/script.js"></script>
+</body>
+</html>
